@@ -12,10 +12,16 @@
 		440DC9BB20B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440DC9B920B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.xib */; };
 		4430656E20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4430656C20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.swift */; };
 		4430656F20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4430656D20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.xib */; };
+		445ECACD20BD926B0097344F /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ECACC20BD926B0097344F /* UIViewController+ShowAlert.swift */; };
+		445ECACF20BD957B0097344F /* HTSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ECACE20BD957B0097344F /* HTSError.swift */; };
+		445ECAD120BDC1E20097344F /* FireStoreHelper+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ECAD020BDC1E20097344F /* FireStoreHelper+Rx.swift */; };
+		44623DD320B88A5600E52E72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44623DD220B88A5500E52E72 /* GoogleService-Info.plist */; };
 		44722CDA20B356D8002890E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44722CD920B356D8002890E1 /* AppDelegate.swift */; };
 		44722CE120B356D8002890E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44722CE020B356D8002890E1 /* Assets.xcassets */; };
 		44722CE420B356D8002890E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44722CE220B356D8002890E1 /* LaunchScreen.storyboard */; };
 		44722CF220B35796002890E1 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44722CF120B35796002890E1 /* App.swift */; };
+		4499CC6F20BC399C00EB8477 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4499CC6E20BC399C00EB8477 /* Mappable.swift */; };
+		4499CC7320BC3FFD00EB8477 /* FireStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4499CC7220BC3FFD00EB8477 /* FireStoreHelper.swift */; };
 		44A0CF3A20B446FB00290440 /* ShowcaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0CF3820B446FB00290440 /* ShowcaseViewController.swift */; };
 		44A0CF3B20B446FB00290440 /* ShowcaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A0CF3920B446FB00290440 /* ShowcaseViewController.xib */; };
 		44A0CF4220B4487400290440 /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0CF4120B4487400290440 /* ContentRepository.swift */; };
@@ -56,12 +62,18 @@
 		440DC9B920B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowcaseSquaredCollectionViewCell.xib; sourceTree = "<group>"; };
 		4430656C20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseHighImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		4430656D20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowcaseHighImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		445ECACC20BD926B0097344F /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
+		445ECACE20BD957B0097344F /* HTSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTSError.swift; sourceTree = "<group>"; };
+		445ECAD020BDC1E20097344F /* FireStoreHelper+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FireStoreHelper+Rx.swift"; sourceTree = "<group>"; };
+		44623DD220B88A5500E52E72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		44722CD620B356D8002890E1 /* HTShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44722CD920B356D8002890E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44722CE020B356D8002890E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44722CE320B356D8002890E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44722CE520B356D8002890E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44722CF120B35796002890E1 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4499CC6E20BC399C00EB8477 /* Mappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		4499CC7220BC3FFD00EB8477 /* FireStoreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreHelper.swift; sourceTree = "<group>"; };
 		44A0CF3820B446FB00290440 /* ShowcaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseViewController.swift; sourceTree = "<group>"; };
 		44A0CF3920B446FB00290440 /* ShowcaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowcaseViewController.xib; sourceTree = "<group>"; };
 		44A0CF4120B4487400290440 /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
@@ -129,6 +141,7 @@
 		44722CD820B356D8002890E1 /* HTShowcase */ = {
 			isa = PBXGroup;
 			children = (
+				4499CC6B20BC35AA00EB8477 /* Helpers */,
 				44A0CF7F20B48B8A00290440 /* SupportingFiles */,
 				44722CF020B35779002890E1 /* Model */,
 				44722CEF20B3576D002890E1 /* Shared */,
@@ -140,6 +153,7 @@
 				44722CE020B356D8002890E1 /* Assets.xcassets */,
 				44722CE220B356D8002890E1 /* LaunchScreen.storyboard */,
 				44722CE520B356D8002890E1 /* Info.plist */,
+				44623DD220B88A5500E52E72 /* GoogleService-Info.plist */,
 			);
 			path = HTShowcase;
 			sourceTree = "<group>";
@@ -187,6 +201,7 @@
 				44A0CFA520B48CD900290440 /* Style.swift */,
 				44A0CF5320B456C300290440 /* Extensions */,
 				4407CDFD20BEE9B8000928FD /* ShadowAndRoundedCollectionViewCell.swift */,
+				445ECACE20BD957B0097344F /* HTSError.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -195,8 +210,26 @@
 			isa = PBXGroup;
 			children = (
 				44722CF120B35796002890E1 /* App.swift */,
+				4499CC6E20BC399C00EB8477 /* Mappable.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4499CC6B20BC35AA00EB8477 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4499CC7520BC78C300EB8477 /* FireStoreHelper */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4499CC7520BC78C300EB8477 /* FireStoreHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4499CC7220BC3FFD00EB8477 /* FireStoreHelper.swift */,
+				445ECAD020BDC1E20097344F /* FireStoreHelper+Rx.swift */,
+			);
+			path = FireStoreHelper;
 			sourceTree = "<group>";
 		};
 		44A0CF3C20B4481D00290440 /* Views */ = {
@@ -216,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				44A0CF4D20B4515300290440 /* UIImageView+Loading.swift */,
+				445ECACC20BD926B0097344F /* UIViewController+ShowAlert.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -334,6 +368,7 @@
 			files = (
 				44A0CF9820B48BAF00290440 /* Raleway-ExtraLightItalic.ttf in Resources */,
 				44A0CF9D20B48BAF00290440 /* Raleway-Regular.ttf in Resources */,
+				44623DD320B88A5600E52E72 /* GoogleService-Info.plist in Resources */,
 				44A0CF3B20B446FB00290440 /* ShowcaseViewController.xib in Resources */,
 				44A0CF9720B48BAF00290440 /* Raleway-Bold.ttf in Resources */,
 				44722CE420B356D8002890E1 /* LaunchScreen.storyboard in Resources */,
@@ -402,15 +437,33 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HTShowcase/Pods-HTShowcase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -425,16 +478,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				44A0CF4220B4487400290440 /* ContentRepository.swift in Sources */,
+				445ECACD20BD926B0097344F /* UIViewController+ShowAlert.swift in Sources */,
+				445ECACF20BD957B0097344F /* HTSError.swift in Sources */,
 				44A0CF5220B4568100290440 /* HTSNavigationController.swift in Sources */,
+				4499CC7320BC3FFD00EB8477 /* FireStoreHelper.swift in Sources */,
 				44A0CF4420B44C9A00290440 /* BaseCoordinator.swift in Sources */,
 				4407CDFE20BEE9B8000928FD /* ShadowAndRoundedCollectionViewCell.swift in Sources */,
 				44A0CF4E20B4515300290440 /* UIImageView+Loading.swift in Sources */,
 				44722CDA20B356D8002890E1 /* AppDelegate.swift in Sources */,
 				440DC9BA20B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.swift in Sources */,
+				445ECAD120BDC1E20097344F /* FireStoreHelper+Rx.swift in Sources */,
 				44A0CFA620B48CD900290440 /* Style.swift in Sources */,
 				44A0CF3A20B446FB00290440 /* ShowcaseViewController.swift in Sources */,
 				44A0CF4820B44CB500290440 /* ShowcaseCoordinator.swift in Sources */,
 				44722CF220B35796002890E1 /* App.swift in Sources */,
+				4499CC6F20BC399C00EB8477 /* Mappable.swift in Sources */,
 				44A0CF4B20B44EA200290440 /* ShowcaseCollectionViewCell.swift in Sources */,
 				4430656E20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.swift in Sources */,
 				44A0CF4620B44CA400290440 /* AppCoordinator.swift in Sources */,

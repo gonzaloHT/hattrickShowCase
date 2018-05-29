@@ -9,16 +9,22 @@
 import Foundation
 import UIKit
 
-class App {
+class App : Mappable {
     
     let name: String
     let description: String
     let imageURL: String
     
-    init(name: String, description: String, imageURL: String) {
+    required init?(dictionary: Dictionary<String, Any>) {
+        guard let name = dictionary["name"] as? String, let description = dictionary["description"] as? String, let imageURL = dictionary["imageURL"] as? String else {
+            return nil 
+        }
+        
         self.name = name
         self.description = description
         self.imageURL = imageURL
+        
+        super.init(dictionary: dictionary)
     }
     
 }

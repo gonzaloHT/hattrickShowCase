@@ -8,6 +8,8 @@ target 'HTShowcase' do
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
   pod 'Kingfisher'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
   
   # Pods for HTShowcase
 

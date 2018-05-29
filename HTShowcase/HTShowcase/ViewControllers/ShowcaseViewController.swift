@@ -94,6 +94,10 @@ class ShowcaseViewController: UIViewController {
             }
             }.disposed(by: disposeBag)
         
+        viewModel.error.subscribe(onNext: { [weak self] _ in
+            self?.showAlert(withTitle: "Error", message: "Apps not found", buttonTitle: "OK")
+        }).disposed(by: disposeBag)
+        
     }
     
     //MARK: - Actions
