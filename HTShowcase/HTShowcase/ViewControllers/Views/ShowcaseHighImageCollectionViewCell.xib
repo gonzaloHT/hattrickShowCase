@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Medium.ttf">
+            <string>Raleway-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ShowcaseHighImageCollectionViewCell" customModule="HTShowcase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="165" height="333"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="165" height="333"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YYB-Vz-Lvd">
+                        <rect key="frame" x="0.0" y="0.0" width="165" height="333"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ytb-Ar-cKd">
+                                <rect key="frame" x="0.0" y="0.0" width="165" height="254"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ytb-Ar-cKd" secondAttribute="height" multiplier="165:254" id="6sp-r0-75i"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LEV-i8-8rg">
+                                <rect key="frame" x="0.0" y="254" width="165" height="79"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzF-5t-9Up">
+                                        <rect key="frame" x="8" y="0.0" width="149" height="79"/>
+                                        <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="MzF-5t-9Up" firstAttribute="top" secondItem="LEV-i8-8rg" secondAttribute="top" id="AT2-b5-xg0"/>
+                                    <constraint firstAttribute="bottom" secondItem="MzF-5t-9Up" secondAttribute="bottom" id="Hfy-gq-Vbc"/>
+                                    <constraint firstAttribute="trailing" secondItem="MzF-5t-9Up" secondAttribute="trailing" constant="8" id="buU-BI-ddj"/>
+                                    <constraint firstItem="MzF-5t-9Up" firstAttribute="centerY" secondItem="LEV-i8-8rg" secondAttribute="centerY" id="hEX-kk-T6N"/>
+                                    <constraint firstItem="MzF-5t-9Up" firstAttribute="leading" secondItem="LEV-i8-8rg" secondAttribute="leading" constant="8" id="jBx-pE-2Lr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="LEV-i8-8rg" secondAttribute="bottom" id="NlV-oB-lHc"/>
+                            <constraint firstItem="LEV-i8-8rg" firstAttribute="top" secondItem="Ytb-Ar-cKd" secondAttribute="bottom" id="UFM-aQ-uPe"/>
+                            <constraint firstItem="Ytb-Ar-cKd" firstAttribute="top" secondItem="YYB-Vz-Lvd" secondAttribute="top" id="e2D-bO-Ruf"/>
+                            <constraint firstItem="Ytb-Ar-cKd" firstAttribute="leading" secondItem="YYB-Vz-Lvd" secondAttribute="leading" id="htW-4B-ClK"/>
+                            <constraint firstAttribute="trailing" secondItem="Ytb-Ar-cKd" secondAttribute="trailing" id="iEe-47-zh6"/>
+                            <constraint firstAttribute="trailing" secondItem="LEV-i8-8rg" secondAttribute="trailing" id="nrA-dt-kyr"/>
+                            <constraint firstItem="LEV-i8-8rg" firstAttribute="leading" secondItem="YYB-Vz-Lvd" secondAttribute="leading" id="sdK-4y-0B2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="YYB-Vz-Lvd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3KP-Vr-biw"/>
+                <constraint firstAttribute="bottom" secondItem="YYB-Vz-Lvd" secondAttribute="bottom" id="7MD-9p-aWY"/>
+                <constraint firstItem="YYB-Vz-Lvd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mXe-EH-NyU"/>
+                <constraint firstAttribute="trailing" secondItem="YYB-Vz-Lvd" secondAttribute="trailing" id="p5I-p8-zP4"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="165" height="333"/>
+            <connections>
+                <outlet property="appImageView" destination="Ytb-Ar-cKd" id="g5Y-T5-PFL"/>
+                <outlet property="appNameLabel" destination="MzF-5t-9Up" id="IoT-cP-iNM"/>
+                <outlet property="containerView" destination="YYB-Vz-Lvd" id="HhN-vD-RMk"/>
+            </connections>
+            <point key="canvasLocation" x="-207.5" y="40.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
