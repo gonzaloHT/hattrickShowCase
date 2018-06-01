@@ -13,9 +13,14 @@ class ShowcaseViewModel {
     
     let disposeBag = DisposeBag()
     
+    //MARK: - Inputs
+    
+    let selectApp: AnyObserver<App>
+    
     //MARK: - Outputs
     
     var apps: Observable<[App]>!
+    let didSelectApp: Observable<App>
     
     var error: Observable<String> {
         return _error.asObservable()
@@ -26,6 +31,11 @@ class ShowcaseViewModel {
     private let _error = PublishSubject<String>()
     
     init() {
+        
+        let _selectApp = PublishSubject<App>()
+        selectApp = _selectApp.asObserver()
+        didSelectApp = _selectApp.asObservable()
+        
         apps = ContentRepository.sharedInstance.getApps().flatMap { _ -> Observable<ResultCollection<App>> in
             return ContentRepository.sharedInstance.getApps()
             }.map({ [weak self] resultCollection -> [App] in
@@ -37,6 +47,7 @@ class ShowcaseViewModel {
                     return []
                 }
             })
+        
     }
     
 }

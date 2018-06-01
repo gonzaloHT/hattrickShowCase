@@ -17,7 +17,7 @@ class HTSNavigationController: UINavigationController {
     }
     
     private func setStyle() {
-        navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white , NSAttributedStringKey.font: Style.Fonts.Raleway.semiBoldFontOfSize(ofSize: 25)]
+        navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white , NSAttributedStringKey.font: Style.Fonts.Raleway.semiBoldFontOfSize(ofSize: 20)]
         navigationBar.backgroundColor = Style.Colors.mainBlueColor()
         navigationBar.isTranslucent = false;
         navigationBar.barTintColor = Style.Colors.mainBlueColor()

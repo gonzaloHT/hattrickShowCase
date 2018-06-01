@@ -25,6 +25,13 @@ class ShowcaseCoordinator: BaseCoordinator<Void> {
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
         
+        viewModel.didSelectApp.do(onNext: {(app) -> Void in
+            let appDetailViewModel = AppDetailViewModel(app: app)
+            let appDetailViewController = AppDetailViewController(viewModel: appDetailViewModel)
+            navigationController.pushViewController(appDetailViewController, animated: true)
+        }).subscribe()
+            .disposed(by: disposeBag)
+        
         return Observable.never()
     }
     

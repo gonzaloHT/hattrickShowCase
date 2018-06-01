@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ShowcaseViewController: UIViewController {
+class ShowcaseViewController: BaseViewController {
     
     enum ViewLayout {
         case common
@@ -94,6 +94,10 @@ class ShowcaseViewController: UIViewController {
             }
             }.disposed(by: disposeBag)
         
+        showcaseCollectionView.rx.modelSelected(App.self)
+            .bind(to: viewModel.selectApp)
+            .disposed(by: disposeBag)
+        
         viewModel.error.subscribe(onNext: { [weak self] _ in
             self?.showAlert(withTitle: "Error", message: "Apps not found", buttonTitle: "OK")
         }).disposed(by: disposeBag)
@@ -135,7 +139,6 @@ extension ShowcaseViewController: UICollectionViewDelegateFlowLayout {
         case .highImage:
             return CGSize(width: (self.view.frame.width / 2) - 40 , height: (self.view.frame.width / 2)  * (254/155))
         }
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
