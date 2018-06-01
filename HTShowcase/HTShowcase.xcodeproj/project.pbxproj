@@ -10,6 +10,8 @@
 		4407CDFE20BEE9B8000928FD /* ShadowAndRoundedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407CDFD20BEE9B8000928FD /* ShadowAndRoundedCollectionViewCell.swift */; };
 		440DC9BA20B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440DC9B820B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.swift */; };
 		440DC9BB20B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440DC9B920B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.xib */; };
+		441C269820C041D300644500 /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441C269620C041D300644500 /* AppDetailViewController.swift */; };
+		441C269920C041D300644500 /* AppDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 441C269720C041D300644500 /* AppDetailViewController.xib */; };
 		4430656E20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4430656C20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.swift */; };
 		4430656F20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4430656D20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.xib */; };
 		445ECACD20BD926B0097344F /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ECACC20BD926B0097344F /* UIViewController+ShowAlert.swift */; };
@@ -52,6 +54,8 @@
 		44A0CFA320B48BAF00290440 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44A0CF9120B48BAF00290440 /* Raleway-Thin.ttf */; };
 		44A0CFA420B48BAF00290440 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44A0CF9220B48BAF00290440 /* Raleway-ExtraBold.ttf */; };
 		44A0CFA620B48CD900290440 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0CFA520B48CD900290440 /* Style.swift */; };
+		44D233DF20C05E8000A317DC /* AppDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D233DE20C05E8000A317DC /* AppDetailViewModel.swift */; };
+		44D233E120C0750800A317DC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D233E020C0750800A317DC /* BaseViewController.swift */; };
 		67DCC82BCF15268D6DA645E2 /* Pods_HTShowcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEA605CCDFA12441A9243B4 /* Pods_HTShowcase.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +64,8 @@
 		4407CDFD20BEE9B8000928FD /* ShadowAndRoundedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowAndRoundedCollectionViewCell.swift; sourceTree = "<group>"; };
 		440DC9B820B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseSquaredCollectionViewCell.swift; sourceTree = "<group>"; };
 		440DC9B920B59F290053ECE7 /* ShowcaseSquaredCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowcaseSquaredCollectionViewCell.xib; sourceTree = "<group>"; };
+		441C269620C041D300644500 /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
+		441C269720C041D300644500 /* AppDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppDetailViewController.xib; sourceTree = "<group>"; };
 		4430656C20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseHighImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		4430656D20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowcaseHighImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		445ECACC20BD926B0097344F /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
@@ -104,6 +110,8 @@
 		44A0CF9120B48BAF00290440 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
 		44A0CF9220B48BAF00290440 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
 		44A0CFA520B48CD900290440 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		44D233DE20C05E8000A317DC /* AppDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewModel.swift; sourceTree = "<group>"; };
+		44D233E020C0750800A317DC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4BEA605CCDFA12441A9243B4 /* Pods_HTShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTShowcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFF0098647791BF3DEF2361 /* Pods-HTShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTShowcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTShowcase/Pods-HTShowcase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +190,8 @@
 				44A0CF3C20B4481D00290440 /* Views */,
 				44A0CF3820B446FB00290440 /* ShowcaseViewController.swift */,
 				44A0CF3920B446FB00290440 /* ShowcaseViewController.xib */,
+				441C269620C041D300644500 /* AppDetailViewController.swift */,
+				441C269720C041D300644500 /* AppDetailViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -190,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				44A0CF4F20B4522700290440 /* ShowcaseViewModel.swift */,
+				44D233DE20C05E8000A317DC /* AppDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,6 +213,7 @@
 				44A0CF5320B456C300290440 /* Extensions */,
 				4407CDFD20BEE9B8000928FD /* ShadowAndRoundedCollectionViewCell.swift */,
 				445ECACE20BD957B0097344F /* HTSError.swift */,
+				44D233E020C0750800A317DC /* BaseViewController.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -367,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44A0CF9820B48BAF00290440 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				441C269920C041D300644500 /* AppDetailViewController.xib in Resources */,
 				44A0CF9D20B48BAF00290440 /* Raleway-Regular.ttf in Resources */,
 				44623DD320B88A5600E52E72 /* GoogleService-Info.plist in Resources */,
 				44A0CF3B20B446FB00290440 /* ShowcaseViewController.xib in Resources */,
@@ -480,6 +493,7 @@
 				44A0CF4220B4487400290440 /* ContentRepository.swift in Sources */,
 				445ECACD20BD926B0097344F /* UIViewController+ShowAlert.swift in Sources */,
 				445ECACF20BD957B0097344F /* HTSError.swift in Sources */,
+				44D233E120C0750800A317DC /* BaseViewController.swift in Sources */,
 				44A0CF5220B4568100290440 /* HTSNavigationController.swift in Sources */,
 				4499CC7320BC3FFD00EB8477 /* FireStoreHelper.swift in Sources */,
 				44A0CF4420B44C9A00290440 /* BaseCoordinator.swift in Sources */,
@@ -494,7 +508,9 @@
 				44722CF220B35796002890E1 /* App.swift in Sources */,
 				4499CC6F20BC399C00EB8477 /* Mappable.swift in Sources */,
 				44A0CF4B20B44EA200290440 /* ShowcaseCollectionViewCell.swift in Sources */,
+				44D233DF20C05E8000A317DC /* AppDetailViewModel.swift in Sources */,
 				4430656E20B5D196001BC214 /* ShowcaseHighImageCollectionViewCell.swift in Sources */,
+				441C269820C041D300644500 /* AppDetailViewController.swift in Sources */,
 				44A0CF4620B44CA400290440 /* AppCoordinator.swift in Sources */,
 				44A0CF5020B4522700290440 /* ShowcaseViewModel.swift in Sources */,
 			);
